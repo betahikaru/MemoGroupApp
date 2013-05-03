@@ -372,6 +372,7 @@
 		BC693FAA16ADA204000B722C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MemoGroup/MemoGroup-Prefix.pch";
 				INFOPLIST_FILE = "MemoGroup/MemoGroup-Info.plist";
@@ -380,6 +381,7 @@
 					"\"$(SRCROOT)/MemoGroup/TestFlightSDK1.1\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -387,6 +389,7 @@
 		BC693FAB16ADA204000B722C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MemoGroup/MemoGroup-Prefix.pch";
@@ -396,6 +399,7 @@
 					"\"$(SRCROOT)/MemoGroup/TestFlightSDK1.1\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
