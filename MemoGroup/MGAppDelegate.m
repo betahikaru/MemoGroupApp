@@ -18,10 +18,10 @@
     // Test Flight
     [TestFlight takeOff:@"64c37dc317c3c17d4493f6ef17a685d5_MTc5OTU1MjAxMy0wMS0yNyAxMjozMToxNi4wNzI0MjE"];
     
-#define TESTING 1
+#define TESTING 0
 #ifdef TESTING
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations" // 非推薦メソッドの警告を無視
-    [TestFlight setDeviceIdentifier:[[UIDevice currentDevice] uniqueIdentifier]];
+    //[TestFlight setDeviceIdentifier:[[UIDevice currentDevice] uniqueIdentifier]];
 #pragma GCC diagnostic warning "-Wdeprecated-declarations" // 非推薦メソッドの警告を再開
     [TestFlight passCheckpoint:@"didFinishLaunchingWithOptions"];  // チェックポイントの追加
 #endif
